@@ -1,0 +1,15 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "chrome": "80",
+          "ie": "11"
+        }
+      }
+    ],
+    ["@babel/preset-react", { "runtime": "automatic" }]
+  ],
+  "plugins": []
+}

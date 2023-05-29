@@ -1,0 +1,67 @@
+{
+  "name": "labreact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-wp": "webpack",
+    "start-b": "babel src -d lib",
+    "start": "webpack serve --mode development --open",
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix",
+    "format": "npx prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marisaaaai/labReact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-react": "^7.18.6",
+    "@material-ui/core": "^4.12.4",
+    "babel-loader": "^9.1.2",
+    "bootstrap": "^5.2.3",
+    "classnames": "^2.3.2",
+    "css-loader": "^6.7.3",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.5",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.8.0",
+    "react-modal": "^3.16.1",
+    "react-responsive-carousel": "^3.2.23",
+    "sass": "^1.61.0",
+    "sass-loader": "^13.2.2",
+    "scss": "^0.2.4",
+    "style-loader": "^3.3.2",
+    "transform-class-properties": "^1.0.0-beta",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.3"
+  },
+  "bugs": {
+    "url": "https://github.com/marisaaaai/labReact/issues"
+  },
+  "homepage": "https://github.com/marisaaaai/labReact#readme",
+  "keywords": [],
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.8"
+  }
+}
