@@ -12,8 +12,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #bdc3c7; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);
   background: linear-gradient(to bottom, #2c3e50, #bdc3c7);
 }
 .pantalla1 {
