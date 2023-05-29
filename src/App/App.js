@@ -144,13 +144,13 @@ function App() {
     let res;
 
     if (!calc.num) {
-    res = calc.valor;
+      res = calc.valor;
     } else if (!calc.valor) {
-    res = calc.num;
+      res = calc.num;
     } else {
-    res = toString(
+      res = toString(
         calcular(Number(mod(calc.valor)), Number(mod(calc.num)), calc.sign)
-    );
+      );
     }
     setCalc({
       ...calc,
